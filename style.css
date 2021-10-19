@@ -144,3 +144,88 @@ color: white;
 text-align: center;
 justify-content: center;
 }
+
+@media only screen and (max-device-width: 480px){
+    .nav li{
+    display: flex;
+    flex-direction: columns;
+    font-size: 16px;
+    padding: 0px;
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+    }
+
+    ul{
+    width: 40%;
+    text-align: center;
+    padding: 5% 0% 0% 0%;
+    }
+
+    #upper-right{
+    float: left;
+    padding: 0px;
+    }
+    section{
+    padding: 0px;
+    margin:auto;
+    }
+
+    h1{
+    text-align: left;
+    padding: 10px;
+    }
+
+    h2{
+    margin-top: 20%;
+    }
+
+    h4{
+    margin-top: 10%;
+    }
+
+    .coach-selections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    }
+
+    .coach{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 800px;
+    }
+    
+    .footer{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    }
+    .light-logo{
+    padding: 0px;
+    width: 100%;
+    }
+    .explore-indeed{
+    padding: 0px;
+    width: 100%;
+    }
+    .explore-indeed-cont{
+    padding: 0px;
+    width: 100%;
+    }
+    .resources{
+    padding: 0px;
+    width: 100%;
+    }
+    .follow-us{
+    padding: 0px;
+    width: 100%;
+    }
+    #footerheading{
+    text-align: left;
+    }
+    }
+    
